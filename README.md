@@ -11,12 +11,12 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 # Initialize local repository
 ```bash
-repo init -u git@github.com:SunOS-Project/android.git -b varuna
+repo init -u git@github.com:SunOS-Project/android.git -b bienor
 ```
 To save time, space and internet data during sync, use a command like this:
 
 ```bash
-repo init --depth=1 -u git@github.com:SunOS-Project/android.git -b varuna
+repo init --depth=1 -u git@github.com:SunOS-Project/android.git -b bienor
 ```
 # Sync
 ```bash
