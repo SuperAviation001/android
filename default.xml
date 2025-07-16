@@ -5,6 +5,8 @@
   <remote name="sun" fetch=".." revision="varuna"/>
   <remote name="aosp" fetch="https://android.googlesource.com" sync-c="true" sync-tags="false" review="https://android-review.googlesource.com/" revision="refs/tags/android-15.0.0_r5" />
   <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-22.2" />
+  <remote name="schoosh" fetch="https://github.com/SuperAviation001" revision="varuna" />
+
   <!-- CLO -->
   <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false"/>
   <default remote="clo-la"/>
