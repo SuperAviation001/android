@@ -132,7 +132,7 @@
   </project>
 
   <!-- Manifest -->
-  <project path="manifest" name="SunOS-Project/android" remote="sun" />
+  <project path="manifest" name="SunOS-Project/android" remote="schoosh" />
 
   <!-- SDclang -->
   <project path="vendor/qcom/sdclang" name="SunOS-Project/proprietary_vendor_qcom_sdclang" clone-depth="1" remote="sun" />
@@ -154,7 +154,7 @@
   <project path="packages/apps/SystemTool" name="SunOS-Project/android_packages_apps_SystemTool" remote="sun" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="SunOS-Project/android_packages_apps_ThemePicker" remote="sun" />
-  <project path="packages/apps/Updater" name="SunOS-Project/android_packages_apps_Updater" remote="schoosh" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="schoosh" />
 
   <!-- Packages modules -->
   <remove-project name="platform/packages/modules/Bluetooth" />
